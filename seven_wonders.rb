@@ -1,7 +1,7 @@
 require 'httparty'
 require "awesome_print"
 
-BASE_URL = "THE BASE URL FOR THE API REQUEST"
+BASE_URL = "https://us1.locationiq.com/v1/search.php?"
 LOCATION_IQ_KEY = "YOUR API TOKEN"
 
 def get_location(search_term)
